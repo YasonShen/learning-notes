@@ -1,4 +1,4 @@
-package com.ya.test;
+package com.ya.leetcode;
 
 public class ModifyString {
 

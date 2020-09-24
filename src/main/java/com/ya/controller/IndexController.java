@@ -20,6 +20,7 @@ public class IndexController {
 
     public String deductStock(){
         String lockKey = "lockKey";
+
         String clientId = UUID.randomUUID().toString();
 
         RLock lock = redisson.getLock(lockKey);
