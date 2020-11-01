@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+/**
+ * @author shenqiuyang3
+ */
 public class HashMapTest {
 
     public static void main(String[] args) {

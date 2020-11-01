@@ -1,6 +1,7 @@
 package com.ya.test;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class VolatileTest {
 
@@ -12,14 +13,18 @@ public class VolatileTest {
         sum++;
     }
 
+//    static int sum = 0;
     public static void main(String[] args) {
 
         VolatileTest vt = new VolatileTest();
+//        ReentrantLock lock = new ReentrantLock();
 
         for (int i = 0; i < 20; i++) {
             Thread thread = new Thread(() -> {
-                for (int j = 0; j < 1000; j++) {
+                for (int j = 0; j < 10000; j++) {
+//                    lock.lock();
                     vt.add();
+//                    lock.unlock();
                 }
             }, String.valueOf(i));
 

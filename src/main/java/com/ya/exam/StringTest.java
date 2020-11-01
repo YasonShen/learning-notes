@@ -1,5 +1,7 @@
 package com.ya.exam;
 
+import java.util.Random;
+
 public class StringTest {
 
     private static boolean isReverse(String s, int N){
@@ -21,5 +23,9 @@ public class StringTest {
         String s = "sasa enen yaya qiqi";
         int N = 2;
         System.out.println(isReverse(s,2));
+        Random random = new Random();
+        System.out.println(random.nextInt(5));
+
+
     }
 }
