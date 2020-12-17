@@ -14,7 +14,7 @@ public class UserController {
         return userService;
     }
 
-    public void setUserService(UserService userService) {
+    private void setUserService(UserService userService) {
         this.userService = userService;
     }
 }

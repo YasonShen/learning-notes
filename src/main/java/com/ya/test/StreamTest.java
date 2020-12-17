@@ -1,6 +1,6 @@
 package com.ya.test;
 
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  * @author shenqiuyang3
@@ -17,6 +17,13 @@ public class StreamTest {
             System.out.println(s);
         });
 
+        int[] b = new int[]{2,3,5};
+        int[] a = new int[b.length+1];
+        System.arraycopy(b,0,a,0,b.length);
+
+
+        a[b.length] = 6;
+        System.out.println(Arrays.toString(a));
 //        String s = new String("1");
 //        s.intern();
 //        String s2 = "1";

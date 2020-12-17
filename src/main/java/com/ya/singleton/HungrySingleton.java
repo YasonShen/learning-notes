@@ -19,9 +19,9 @@ public class HungrySingleton {
     }
 
     public static void main(String[] args) {
-        ThreadPoolExecutor executor = new ThreadPoolExecutor(5,10,5, TimeUnit.SECONDS,new ArrayBlockingQueue<>(5));
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(100,200,5, TimeUnit.SECONDS,new ArrayBlockingQueue<>(5));
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 100; i++) {
             executor.execute(new Runnable() {
                 @Override
                 public void run() {
@@ -30,5 +30,9 @@ public class HungrySingleton {
                 }
             });
         }
+        System.out.println(executor.getActiveCount());
+        executor.shutdown();
+        System.out.println(executor.isTerminated());
+
     }
 }

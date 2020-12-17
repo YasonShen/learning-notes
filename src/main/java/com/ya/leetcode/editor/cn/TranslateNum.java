@@ -1,4 +1,4 @@
-package com.ya.leetcode;
+package com.ya.leetcode.editor.cn;
 
 public class TranslateNum {
 

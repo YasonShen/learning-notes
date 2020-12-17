@@ -26,6 +26,7 @@ public class MyTest {
         Method method = clazz.getMethod(name, UserService.class);
         method.invoke(userController, userService);
 
+
 //        System.out.println(userService);
 //        Class<? extends UserController> clazz = userController.getClass();
 //        Field declaredField = clazz.getDeclaredField("userService");
