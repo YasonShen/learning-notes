@@ -22,6 +22,7 @@
     </build>
     <modules>
         <module>SpringBootTest</module>
+        <module>redis-lock</module>
     </modules>
 
     <parent>
@@ -62,6 +63,12 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.4</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

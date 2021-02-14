@@ -27,6 +27,30 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/BestTimeToBuyAndSellStock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" />
+              <option name="questionId" value="121" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.java" />
+              <option name="questionId" value="122" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/BestTimeToBuyAndSellStockIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/BestTimeToBuyAndSellStockIii.java" />
+              <option name="questionId" value="123" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/EvaluateDivision.java">
           <value>
             <LeetcodeEditor>
@@ -43,11 +67,59 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/KthLargestElementInAnArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/KthLargestElementInAnArray.java" />
+              <option name="questionId" value="215" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LargestNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LargestNumber.java" />
+              <option name="questionId" value="179" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LianXuZiShuZuDeZuiDaHeLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LianXuZiShuZuDeZuiDaHeLcof.java" />
+              <option name="questionId" value="100304" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestCommonPrefix.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestCommonPrefix.java" />
+              <option name="questionId" value="14" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestCommonSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestCommonSubsequence.java" />
+              <option name="questionId" value="1250" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestConsecutiveSequence.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestConsecutiveSequence.java" />
               <option name="questionId" value="128" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestIncreasingSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/LongestIncreasingSubsequence.java" />
+              <option name="questionId" value="300" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -67,11 +139,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/MergeKSortedLists.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/MergeKSortedLists.java" />
+              <option name="questionId" value="23" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/NextPermutation.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/NextPermutation.java" />
               <option name="questionId" value="31" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/PalindromePartitioning.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/ya/leetcode/editor/cn/PalindromePartitioning.java" />
+              <option name="questionId" value="131" />
             </LeetcodeEditor>
           </value>
         </entry>
