@@ -6,14 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-lock" />
         <module name="SpringBootTest" />
+        <module name="redis-lock" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rpc" target="1.7" />
+      <module name="rpc-client" target="1.7" />
+      <module name="rpc-common" target="1.7" />
+      <module name="rpc-registry" target="1.7" />
+      <module name="rpc-registry-zookeeper" target="1.7" />
+      <module name="rpc-server" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBootTest" options="-parameters" />
+      <module name="netty" options="-parameters" />
       <module name="redis-lock" options="-parameters" />
     </option>
   </component>

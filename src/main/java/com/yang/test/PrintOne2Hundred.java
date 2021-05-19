@@ -10,8 +10,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Description
  */
 public class PrintOne2Hundred {
-
-
     private ReentrantLock lock = new ReentrantLock();
     volatile int i = 0;
     volatile int flag = 0;
@@ -22,8 +20,8 @@ public class PrintOne2Hundred {
         @Override
         public void run() {
             while (i < 100) {
-                lock.lock();
                 try {
+                    lock.lock();
                     while (flag % 3 == 0) {
                         System.out.println("current thread is " + Thread.currentThread().getName() + " i = " + i);
                         flag++;
@@ -40,8 +38,8 @@ public class PrintOne2Hundred {
         @Override
         public void run() {
             while (i < 100) {
-                lock.lock();
                 try {
+                    lock.lock();
                     while (flag % 3 == 1) {
                         System.out.println("current thread is " + Thread.currentThread().getName() + " i = " + i);
                         flag++;
@@ -59,8 +57,8 @@ public class PrintOne2Hundred {
         public void run() {
 
             while (i < 100) {
-                lock.lock();
                 try {
+                    lock.lock();
                     while (flag % 3 == 2) {  //多线程并发，不能用if，必须用循环测试等待条件，避免虚假唤醒
                         System.out.println("current thread is " + Thread.currentThread().getName() + " i = " + i);
                         flag++;

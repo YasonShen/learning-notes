@@ -23,6 +23,7 @@
     <modules>
         <module>SpringBootTest</module>
         <module>redis-lock</module>
+        <module>netty</module>
     </modules>
 
     <parent>
