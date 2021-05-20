@@ -24,6 +24,9 @@
         <module>SpringBootTest</module>
         <module>redis-lock</module>
         <module>netty</module>
+        <module>rpc-server</module>
+        <module>rpc-common</module>
+        <module>rpc-client</module>
     </modules>
 
     <parent>
