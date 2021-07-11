@@ -9,12 +9,13 @@
 
     <context:property-placeholder location="classpath:rpc.properties"/>
 
-    <bean id="serviceDiscovery" class="com.yang.config.ZooKeeperServiceDiscovery">
-        <constructor-arg name="zkAddress" value="${rpc.registry_address}"/>
-    </bean>
+<!--    <bean id="serviceDiscovery" class="com.yang.config.ZooKeeperServiceDiscovery">-->
+<!--        <constructor-arg name="zkAddress" value="${rpc.registry_address}"/>-->
+<!--    </bean>-->
 
     <bean id="rpcProxy" class="com.yang.RpcProxy">
-        <constructor-arg name="serviceDiscovery" ref="serviceDiscovery"/>
+<!--        <constructor-arg name="serviceDiscovery" ref="serviceDiscovery"/>-->
+        <constructor-arg type="java.lang.String" value=""/>
     </bean>
 
 </beans>

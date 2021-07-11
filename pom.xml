@@ -27,6 +27,7 @@
         <module>rpc-server</module>
         <module>rpc-common</module>
         <module>rpc-client</module>
+        <module>annotation-find</module>
     </modules>
 
     <parent>

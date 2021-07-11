@@ -20,7 +20,8 @@ import java.util.Map;
  * @author huangyong
  * @since 1.0.0
  */
-public class RpcServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
+public class
+RpcServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RpcServerHandler.class);
 
