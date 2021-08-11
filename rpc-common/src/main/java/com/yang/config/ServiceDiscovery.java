@@ -3,7 +3,7 @@ package com.yang.config;
 /**
  * 服务发现接口
  *
- * @author huangyong
+ * @author shenqiuyang
  * @since 1.0.0
  */
 public interface ServiceDiscovery {
