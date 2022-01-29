@@ -11,6 +11,14 @@ public class TestUtil {
 
     public static void main(String[] args) {
 
+        int[][] map = new int[][] {
+                {0, 1, 0, 0, 0},
+                {0, 1, 0, 1, 0},
+                {0, 0, 0, 0, 0},
+                {0, 1, 1, 1, 0},
+        };;
+        System.out.println(map.length);
+        System.out.println(map[0].length);
 //        空集合可以进行流操作，null不行
         List<String> list = new ArrayList<>();
 //        list = null;

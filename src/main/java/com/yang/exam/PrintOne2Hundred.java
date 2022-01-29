@@ -14,7 +14,7 @@ public class PrintOne2Hundred {
             while (num < 100) {
                 try {
                     lock.lock();
-                    while (state % 3 == 0) {
+                    if (state % 3 == 0) {
                         state++;
                         System.out.println(Thread.currentThread().getName() + ":" + num++);
                     }
@@ -31,7 +31,7 @@ public class PrintOne2Hundred {
             while (num < 100) {
                 try {
                     lock.lock();
-                    while (state % 3 == 1) {
+                    if (state % 3 == 1) {
                         state++;
                         System.out.println(Thread.currentThread().getName() + ":" + num++);
                     }
@@ -48,7 +48,7 @@ public class PrintOne2Hundred {
             while (num < 100) {
                 try {
                     lock.lock();
-                    while (state % 3 == 2) {
+                    if (state % 3 == 2) {
                         state++;
                         System.out.println(Thread.currentThread().getName() + ":" + num++);
                     }

@@ -1,6 +1,7 @@
 package com.yang.test;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * @author shenqiuyang3
@@ -12,11 +13,10 @@ public class QuickSortTest {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 4, 5, 2,3,2,2,32, 5, 23, 6, 12, 10};
-        quickSort(nums, 0, 12);
+        int[] nums = {4,2,1,3,2,3,4,2};
+        quickSort(nums, 0, nums.length-1);
 //        new QuickSortTest().reverse(nums);
         System.out.println(Arrays.toString(nums));
-
 
     }
 
@@ -30,7 +30,7 @@ public class QuickSortTest {
         }
     }
 
-    private void swap(int[] nums, int i, int j) {
+    private static void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
@@ -38,17 +38,21 @@ public class QuickSortTest {
 
     private static void quickSort(int[] nums, int i, int j){
 
-        if (i >= j) return;
+        if (i >= j) {
+            return;
+        }
         int pos = findPos(nums, i, j);
         quickSort(nums, i,pos-1);
         quickSort(nums, pos+1, j);
     }
 
     private static int findPos(int[] nums, int i, int j){
+
+        int random=new Random().nextInt(j-i+1)+i;
+        swap(nums,i,random);//随机快排
         int key = nums[i];
 
         while (i < j){
-
             while (i < j && nums[j] >= key){
                 j--;
             }

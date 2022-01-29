@@ -16,15 +16,29 @@ class ListNode {
 
 public class ReverseListNode {
 
-    public ListNode reverseListNode(ListNode head) {
-        if (head == null) return null;
-        if (head.next == null) return head;
-
-        ListNode ret = reverseListNode(head.next);
-
+    public static ListNode reverseListNodeRecur(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        if (head.next == null) {
+            return head;
+        }
+        ListNode ret = reverseListNodeRecur(head.next);
         head.next.next = head;
         head.next = null;
         return ret;
+    }
+
+    public static ListNode reverseNonRecur(ListNode head){
+        ListNode pre = null,cur = head,next = null;
+
+        while(cur != null){
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
     }
 
     public void printListNode(ListNode head){
@@ -45,13 +59,12 @@ public class ReverseListNode {
         b.next = c;
         c.next = d;
         d.next = e;
+        e.next = b;
 
-        ListNode listNode = new RotateListNode().rotateListNode(a, 2);
+//        ListNode listNode = new RotateListNode().rotateListNode(a, 2);
 //        new ReverseListNode().printListNode(a);
-//        new ReverseListNode().reverseListNode(a);
-//        while (d != null){
-//            System.out.println(d.val);
-//            d = d.next;
+
+        ListNode listNode = reverseNonRecur(a);
         while (listNode != null){
             System.out.println(listNode.val);
             listNode = listNode.next;
