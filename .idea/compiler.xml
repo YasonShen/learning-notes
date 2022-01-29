@@ -11,6 +11,7 @@
         <module name="SpringBootTest" />
         <module name="netty" />
         <module name="rpc-common" />
+        <module name="annotation-find" />
         <module name="rpc-server" />
         <module name="rpc-client" />
       </profile>
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBootTest" options="-parameters" />
+      <module name="annotation-find" options="-parameters" />
       <module name="netty" options="-parameters" />
       <module name="redis-lock" options="-parameters" />
       <module name="rpc-client" options="-parameters" />

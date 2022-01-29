@@ -1,0 +1,24 @@
+{
+	"variable": {
+		"aaa": "",
+		"bbb": ""
+	},
+	"flow": [{
+		"id": "1",
+		"action": "open",
+		"url": "http://etax.shanghai.chinatax.gov.cn/wszx-web/bszm/apps/views/beforeLogin/indexBefore/pageIndex.html#/",
+		"next": [{
+			"next": "2"
+		}]
+	}, {
+		"id": "2",
+		"action": "click",
+		"target": {
+			"type": "cssSelector",
+			"value": ".login-btn > img"
+		},
+		"next": [{
+			"next": "3"
+		}]
+	}]
+}

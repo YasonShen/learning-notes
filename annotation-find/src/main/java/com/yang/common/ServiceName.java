@@ -1,4 +1,4 @@
-package com.yang;
+package com.yang.common;
 
 import org.springframework.stereotype.Component;
 
@@ -8,21 +8,15 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * RPC 服务注解（标注在服务实现类上）
  * @author shenqiuyang
+ * @date 2021/7/11 上午11:26
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Component
-public @interface RpcService {
+public @interface ServiceName {
 
-    /**
-     * 服务接口类
-     */
     Class<?> value();
 
-    /**
-     * 服务版本号
-     */
-    String version() default "";
+    String name() default "";
 }
